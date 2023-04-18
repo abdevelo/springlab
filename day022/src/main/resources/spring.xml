@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="udao" class="com.kbstar.dao.UserDAO"></bean>
+    <bean id="umdao" class="com.kbstar.dao.UserMySQLDAO"></bean>
+
+    <bean id="uservice" class="com.kbstar.service.UserService">
+        <!--    service객체가 dao를 사용하겠다는 표시를 xml로 표기-->
+        <constructor-arg name="dao" ref="umdao"></constructor-arg>
+    </bean>
+</beans>
+
+<!--day022는 xml방식의 DI를 하였음
+    day023은 annotation방식을 해보겠음-->

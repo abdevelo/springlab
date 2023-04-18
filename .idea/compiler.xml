@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day021" />
+        <module name="day02" />
+        <module name="day01" />
+        <module name="day022_XML" />
+        <module name="day023_ANN" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day022 (1)" target="11" />
+      <module name="day022 (2)" target="11" />
+      <module name="springlab" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
