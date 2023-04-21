@@ -5,7 +5,8 @@
 
 <%--cutted center--%>
 
-<div class="col-sm-8 text-left">
-    <h1>Welcome Home</h1>
-
+<div class="col-sm-2 sidenav">
+    <p>Cust Left</p>
+    <p><a href="/cust/add">ADD</a></p>
+    <p><a href="/cust/all">ALL</a></p>
 </div>

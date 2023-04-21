@@ -2,10 +2,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
-
-<%--cutted center--%>
-
 <div class="col-sm-8 text-left">
-    <h1>Welcome Home</h1>
-
+    <h1> Item Add page</h1>
 </div>

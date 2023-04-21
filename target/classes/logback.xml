@@ -24,11 +24,11 @@
         </rollingPolicy>
     </appender>
 
-    <root level="ERROR">
+    <root level="INFO">
         <appender-ref ref="STDOUT" />
     </root>
-<!--        에러 시 로그 출력
-            root는 일반적인 출력을 해라
+<!--        ERROR : 에러 시 로그 출력
+            INFO : 일반적인 모든 값을 출력해라
             STDOUT= Standard out-->
 
     <logger name="org.springframework.web" level="DEBUG">

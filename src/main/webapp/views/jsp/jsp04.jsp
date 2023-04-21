@@ -2,10 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
-
-<%--cutted center--%>
-
 <div class="col-sm-8 text-left">
-    <h1>Welcome Home</h1>
-
+    <div class="container">
+        <h1> Jsp 04 </h1>
+    </div>
 </div>

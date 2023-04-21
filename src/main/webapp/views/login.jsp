@@ -3,21 +3,6 @@
 
 <script>
     // id 및 pw 전송
-    let login_form = {
-        init:function (){
-            $('#login_btn').click(function (){
-                login_form.send();
-            });
-        },
-        send:function (){
-            $('#login_form').attr({
-                'action':'/loginimpl', //action하면 하게될 서버의 작업
-                'method':'get'
-            });
-            $('#login_form').submit();
-        }
-    };
-
     $(function (){
         login_form.init();
     });
