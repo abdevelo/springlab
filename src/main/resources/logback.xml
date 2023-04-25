@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <property name="LOGS_ABSOLUTE_PATH" value="./logs" />
+    <property name="LOGS_CUSTINFO" value="./src/main/resources/static/logs" />
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">
@@ -24,6 +25,23 @@
         </rollingPolicy>
     </appender>
 
+    <appender name="FILE2" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOGS_CUSTINFO}/custinfo.log</file>
+        <!--        저장경로-->
+        <encoder>
+            <pattern> %d{yyyy-MM-dd HH:mm:ss}, %msg%n</pattern>
+        </encoder>
+        <!--        시간 또는 사이즈에 따라서 파일이 바뀜-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOGS_ABSOLUTE_PATH}/custinfo.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>5MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+
     <root level="INFO">
         <appender-ref ref="STDOUT" />
     </root>
@@ -35,6 +53,12 @@
         <appender-ref ref="STDOUT" />
         <appender-ref ref="FILE" />
     </logger>
+
+    <logger name="com.kbstar.controller.CustController" level="INFO">
+        <appender-ref ref="FILE2" />
+    </logger>
+
+<!--    name = 요 클래스에서 발생하는 log를 FILE2에 저장하겠다. -->
     <!--        웹 실행 시 로그 출력
             STDOUT= Standard out 및
             파일 만들어라 -->

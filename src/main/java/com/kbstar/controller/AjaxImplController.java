@@ -58,6 +58,18 @@ public class AjaxImplController {
         return result;
     }
 
+    @RequestMapping("/chart05")
+    public Object chart05(String year) {
+        JSONArray ja = new JSONArray();
+        for(int i=1;i<=12; i++){
+            Random r = new Random();
+            int num = r.nextInt(100)+1;
+            ja.add(num);
+        }
+        return ja;
+    }
+
+
     @RequestMapping("/markers")
     public Object markers(String loc) {
         //분기가 필요
