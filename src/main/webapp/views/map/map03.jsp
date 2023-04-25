@@ -72,7 +72,7 @@
         },
         displaymarkers:function (positions) {
             var imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png";
-            for (var i = 0; i < positions.length; i ++) {
+            for (var i = 0; i < positions.length; i++) {
                 var imageSize = new kakao.maps.Size(20, 30);
                 var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize);
                 var markerPosition = new kakao.maps.LatLng( positions[i].lat, positions[i].lng);
