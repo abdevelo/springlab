@@ -90,8 +90,6 @@
         chart01.init();
     });
 </script>
-
-
 <div class="col-sm-8 text-left">
     <div class="container">
         <h3>CHART01</h3>

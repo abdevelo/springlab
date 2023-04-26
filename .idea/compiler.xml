@@ -8,7 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="web04" />
-        <module name="web07" />
+        <module name="web08" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +16,7 @@
       <module name="web03" target="11" />
       <module name="web05" target="11" />
       <module name="web06" target="11" />
+      <module name="web07" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -26,6 +27,7 @@
       <module name="web05" options="-parameters" />
       <module name="web06" options="-parameters" />
       <module name="web07" options="-parameters" />
+      <module name="web08" options="-parameters" />
     </option>
   </component>
 </project>
