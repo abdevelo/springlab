@@ -5,34 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0426">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/WebMessageConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/frame/KBMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/CustMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/mybatis/custmapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/CustService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/KBService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages/message.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages/message_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages/message_ko_KR.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/cust/InsertTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/Web08Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/Web09Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/center.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/item/all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/item/all.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/ServletInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/Web08Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/WebMvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +99,7 @@
       <updated>1682482192610</updated>
       <workItem from="1682482193901" duration="1042000" />
       <workItem from="1682484641329" duration="1012000" />
-      <workItem from="1682487168481" duration="5508000" />
+      <workItem from="1682487168481" duration="5664000" />
     </task>
     <task id="LOCAL-00001" summary="0426">
       <created>1682482426195</created>
@@ -135,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682482426195</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0426">
+      <created>1682495601239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682495601239</updated>
+    </task>
+    <task id="LOCAL-00003" summary="0426">
+      <created>1682495673526</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682495673526</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
