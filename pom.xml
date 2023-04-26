@@ -9,11 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.kbstar</groupId>
-    <artifactId>web08</artifactId>
+    <artifactId>web09</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>web08</name>
-    <description>web08</description>
+    <name>web09</name>
+    <description>web09</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -78,9 +78,7 @@
             <artifactId>log4jdbc-log4j2-jdbc4.1</artifactId>
             <version>1.16</version>
         </dependency>
-
         <!-- json request -->
-
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>

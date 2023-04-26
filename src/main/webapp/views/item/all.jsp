@@ -19,7 +19,7 @@
                     <th>ID</th>
                     <th>NAME</th>
                     <th>PRICE</th>
-                    <th>REGDATE</th>
+                    <th>RDATE</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -29,7 +29,7 @@
                         <td>${obj.id}</td>
                         <td>${obj.name}</td>
                         <td><fmt:formatNumber value="${obj.price}" type="currency"/></td>
-                        <td><fmt:formatDate value="${obj.regdate}" pattern="yyyy-MM-dd HH:mm:ss"/></td>
+                        <td><fmt:formatDate value="${obj.rdate}" pattern="yyyy-MM-dd HH:mm:ss"/></td>
                     </tr>
                 </c:forEach>
                 </tbody>
