@@ -4,7 +4,8 @@
 
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">
-            <Pattern>[%d{yyyy-MM-dd HH:mm:ss}:%-3relative][%thread] %-5level %logger{36} - %msg%n</Pattern>
+            <Pattern>[%d{MM-dd HH:mm:ss}]%-5level %logger{36} - %msg%n</Pattern>
+<!--            <Pattern>[%d{MM-dd HH:mm:ss}][%thread] %-5level %logger{36} - %msg%n</Pattern>-->
         </layout>
     </appender>
 
@@ -48,4 +49,19 @@
     <logger name="com.kbstar.controller.CustController" level="INFO">
         <appender-ref ref="FILE2" />
     </logger>
+
+
+    <logger name="jdbc" level="OFF" />
+	<logger name="jdbc.sqlonly" level="INFO" />
+	<logger name="jdbc.sqltiming" level="OFF" />
+	<logger name="jdbc.audit" level="OFF" />
+	<logger name="jdbc.resultset" level="OFF" />
+	<logger name="jdbc.resultsettable" level="INFO" />
+	<logger name="jdbc.connection" level="OFF" />
+
+
+
+
+
+
 </configuration>

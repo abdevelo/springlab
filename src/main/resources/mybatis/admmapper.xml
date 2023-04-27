@@ -7,22 +7,23 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
                 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.shop.mapper.CustMapper">
 
-    <select id="select" parameterType="String" resultType="cust">
+<mapper namespace="com.kbstar.mapper.AdmMapper">
+<!--KBmapper->CustMapper에 있는 함수 명칭(select,insert,...etc)이 select문의 id로 들어옴-->
+    <select id="select" parameterType="String" resultType="adm">
         SELECT * FROM cust WHERE id=#{id}
     </select>
-    <select id="selectall" resultType="cust">
+    <select id="selectall" resultType="adm">
         SELECT * FROM cust
     </select>
-    <insert id="insert" parameterType="cust">
-        INSERT INTO cust VALUES (#{id},#{name},#{pwd})
+    <insert id="insert" parameterType="adm">
+        INSERT INTO cust VALUES (#{id},#{pwd},#{lev})
     </insert>
-    <update id="update" parameterType="cust">
-        UPDATE cust SET name=#{name},pwd=#{PWD} WHERE id=#{id}
+    <update id="update" parameterType="adm">
+        UPDATE cust SET pwd=#{pwd},lev=#{lev} WHERE id=#{id}
     </update>
     <delete id="delete" parameterType="String">
-        DELETE FROM cust WHERE id=#{id}
+        DELETE FROM adm WHERE id=#{id}
     </delete>
 
 </mapper>

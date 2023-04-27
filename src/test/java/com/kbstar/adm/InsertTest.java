@@ -1,6 +1,6 @@
-package com.kbstar.cust;
-import com.kbstar.dto.Cust;
-import com.kbstar.service.CustService;
+package com.kbstar.adm;
+import com.kbstar.dto.Adm;
+import com.kbstar.service.AdmService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,10 +11,10 @@ import org.springframework.dao.DuplicateKeyException;
 @Slf4j
 public class InsertTest {
     @Autowired
-    CustService service;
+    AdmService service;
     @Test
     void contextLoads(){
-        Cust obj = new Cust("id21", "pwd21", "summer");
+        Adm obj = new Adm();
         try {
             service.register(obj);
             log.info("등록 정상");
