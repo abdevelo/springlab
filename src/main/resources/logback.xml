@@ -50,7 +50,8 @@
         <appender-ref ref="FILE2" />
     </logger>
 
-
+<!--INFO(trace>debug>info>warn>error)-->
+<!--    확인할필요 없는 Log는 off로 -->
     <logger name="jdbc" level="OFF" />
 	<logger name="jdbc.sqlonly" level="INFO" />
 	<logger name="jdbc.sqltiming" level="OFF" />

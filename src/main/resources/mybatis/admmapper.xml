@@ -17,7 +17,8 @@
         SELECT * FROM cust
     </select>
     <insert id="insert" parameterType="adm">
-        INSERT INTO cust VALUES (#{id},#{pwd},#{lev})
+        INSERT INTO cust
+        VALUES (#{id},#{pwd},#{lev})
     </insert>
     <update id="update" parameterType="adm">
         UPDATE cust SET pwd=#{pwd},lev=#{lev} WHERE id=#{id}

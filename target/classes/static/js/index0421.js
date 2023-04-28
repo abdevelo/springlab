@@ -16,22 +16,6 @@ let login_form = {
 };
 
 
-// register.jsp
-
-let reg_form = {
-    init:function (){
-        $('#reg_btn').click(function (){
-            reg_form.send();
-        });
-    },
-    send:function (){
-        $('#reg_form').attr({
-            'action':'/registerimpl', //action하면 하게될 서버의 작업
-            'method':'get'
-        });
-        $('#reg_form').submit();
-    }
-};
 
 
  // ajax01.jsp

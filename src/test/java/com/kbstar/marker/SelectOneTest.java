@@ -24,7 +24,7 @@ class SelectOneTest {
         } catch (Exception e) { // 오류 예외처리(자동)
             //throw new RuntimeException(e);
             log.info("-------  Marker(맛집추천) 조회 에러 발생 -------");
-            // e.printStackTrace(); // 에러 자세히
+             e.printStackTrace(); // 에러 자세히
         }
     }
 

@@ -3,8 +3,11 @@ package com.kbstar.controller;
 
 import com.kbstar.dto.Cust;
 import com.kbstar.dto.Marker;
+import com.kbstar.service.CustService;
+import com.kbstar.service.MarkerService;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
@@ -16,6 +19,11 @@ import java.util.Random;
 // 기존 controller : 화면을 return
 // RestController : object을 return
 public class AjaxImplController {
+
+    @Autowired
+    MarkerService markerService;
+    @Autowired
+    CustService custService;
     @RequestMapping("/getservertime")
     public Object getservertime() {
         Date date = new Date();
@@ -50,12 +58,14 @@ public class AjaxImplController {
 
 
     @RequestMapping("/checkid")
-    public Object checkid(String id) {
+    public Object checkid(String id) throws Exception {
         int result = 0;
-        if (id.equals("qqqq") || id.equals("aaaa") || id.equals("ssss")) {
-            result = 1;
+        Cust cust = null;
+        cust = custService.get(id);
+        if ( cust != null){
+            result=1;
         }
-        return result;
+        return result;  // result =1 ->  사용할 수 없는 아이디
     }
 
     @RequestMapping("/chart05")
@@ -71,25 +81,14 @@ public class AjaxImplController {
 
 
     @RequestMapping("/markers")
-    public Object markers(String loc) {
-        //분기가 필요
-        List<Marker> list = new ArrayList<>();
-        if (loc.equals("s")) {
-            list.add(new Marker(100, "담미온", "http://www.nate.com", 37.5456390, 127.0534580, "a.jpg", "s"));
-            list.add(new Marker(101, "제주국수", "http://www.naver.com", 38.5456390, 127.0534580, "b.jpg", "s"));
-            list.add(new Marker(102, "교대이층", "http://www.google.com", 37.5456390, 129.0534580, "c.jpg", "s"));
-        } else if (loc.equals("b")) {
-            list.add(new Marker(103, "해운대", "http://www.nate.com", 35.1883491, 129.2233197, "a.jpg", "b"));
-            list.add(new Marker(104, "고기국수", "http://www.naver.com", 35.1883491, 129.2233197, "b.jpg", "b"));
-            list.add(new Marker(105, "부산역전", "http://www.google.com", 35.1883491, 129.2233197, "c.jpg", "b"));
-        } else if (loc.equals("j")) {
-            list.add(new Marker(106, "올레시장", "http://www.nate.com", 33.2501708, 126.5636786, "a.jpg", "j"));
-            list.add(new Marker(107, "제주공항", "http://www.naver.com", 33.2501708, 126.5636786, "b.jpg", "j"));
-            list.add(new Marker(108, "서귀포시장", "http://www.google.com", 33.2501708, 126.5636786, "c.jpg", "j"));
+    public Object markers(String loc) throws Exception {
+        List<Marker> list = null;
+        try {
+            list = markerService.getLoc(loc);
+        } catch (Exception e) {
+            throw new Exception("시스템 장애");
         }
-
         JSONArray ja = new JSONArray();
-        //db에서 맛집 정보를 select 해온다
         for (Marker obj : list) {
             JSONObject jo = new JSONObject();
             Random r = new Random();
