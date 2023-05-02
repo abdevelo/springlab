@@ -5,42 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0502">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/cust/allpage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/custinfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/item/allpage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/loginfail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/loginok.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/item/SelectPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/page.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/CustController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/CustController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/CustomErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/CustomErrorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/CustMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/CustMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/ItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/ItemMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/service/CustService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/CustService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/custmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/custmapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/itemmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/itemmapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/cust/all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/cust/all.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/cust/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/cust/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/item/all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/item/all.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/item/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/item/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/Web04ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/Web11ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/cust/allpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/cust/allpage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/item/allpage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/item/allpage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/CustController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/CustController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/CustomErrorController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/ItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/CustMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/CustMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/ItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/ItemMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/CustService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/service/CustService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/service/ItemService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/custmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/custmapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/itemmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/itemmapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/Web04ApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +222,7 @@
       <workItem from="1682554355188" duration="19538000" />
       <workItem from="1682640594750" duration="28551000" />
       <workItem from="1682985823122" duration="56000" />
-      <workItem from="1682985881444" duration="12214000" />
+      <workItem from="1682985881444" duration="13035000" />
     </task>
     <task id="LOCAL-00001" summary="0426">
       <created>1682482426195</created>
@@ -336,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682985991723</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="0502">
+      <created>1683004347052</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1683004347052</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

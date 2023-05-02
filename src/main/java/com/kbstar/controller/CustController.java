@@ -78,10 +78,9 @@ public class CustController {
             throw new Exception("시스템 장애: ER0001");
         }
         model.addAttribute("cpage",p);
+        model.addAttribute("target", "cust");
         model.addAttribute("left",dir+"left");
         model.addAttribute("center",dir+"allpage");
         return "index";
     }
-
-
 }

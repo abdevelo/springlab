@@ -22,8 +22,8 @@
                 </tr>
                 </thead>
                 <tbody>
-                <c:forEach var="obj" items="${ipage.getList()}">
-<%--                    ipage는 페이지 정보이므로 그 속의 list를 꺼내야 함--%>
+                <c:forEach var="obj" items="${cpage.getList()}">
+<%--                    cpage는 페이지 정보이므로 그 속의 list를 꺼내야 함--%>
                     <tr>
                         <td><img src="/img/${obj.imgname}" class="medium_img"></td>
                         <td>${obj.id}</td>
@@ -34,55 +34,7 @@
                 </c:forEach>
                 </tbody>
             </table>
-
-            <!-- pagination Navigation start -->
-            <div class="col text-center">
-                <ul class="pagination ">
-                    <c:choose>
-                        <c:when test="${ipage.getPrePage() != 0}">
-                            <li>
-                                <a href="/cust/allpage?pageNo=${ipage.getPrePage()}">Previous</a>
-                            </li>
-                        </c:when>
-                        <c:otherwise>
-                            <li class="disabled">
-                                <a href="#">Previous</a>
-                            </li>
-                        </c:otherwise>
-                    </c:choose>
-
-                    <c:forEach begin="${ipage.getNavigateFirstPage() }" end="${ipage.getNavigateLastPage() }" var="page">
-                        <c:choose>
-                            <c:when test="${ipage.getPageNum() == page}">
-                                <li class="active">
-                                    <a  href="/item/allpage?pageNo=${page}">${page }</a>
-                                </li>
-                            </c:when>
-                            <c:otherwise>
-                                <li>
-                                    <a href="/item/allpage?pageNo=${page}">${page }</a>
-                                </li>
-                            </c:otherwise>
-                        </c:choose>
-
-                    </c:forEach>
-                    <c:choose>
-                        <c:when test="${ipage.getNextPage() != 0}">
-                            <li>
-                                <a href="/item/allpage?pageNo=${ipage.getNextPage()}">Next</a>
-                            </li>
-                        </c:when>
-                        <c:otherwise>
-                            <li class="disabled">
-                                <a href="#">Next</a>
-                            </li>
-                        </c:otherwise>
-                    </c:choose>
-
-                </ul>
-            </div>
-            <!-- pagination Navigation end -->
-            
+            <jsp:include page="../page.jsp"/>
         </div>
     </div>
 </div>
