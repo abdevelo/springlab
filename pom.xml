@@ -9,11 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.kbstar</groupId>
-    <artifactId>web10</artifactId>
+    <artifactId>web11</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>web10</name>
-    <description>web10</description>
+    <name>web11</name>
+    <description>web11</description>
     <properties>
         <java.version>11</java.version>
     </properties>
