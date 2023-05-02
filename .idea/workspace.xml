@@ -4,15 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0428">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web10.iml" beforeDir="false" />
+    <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0502">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/cust/allpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/custinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/item/allpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/loginfail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/loginok.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/item/SelectPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/Web10Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/Web11Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/ChartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/ChartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/admmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/admmapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/CustController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/CustController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/CustomErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/CustomErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/CustMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/CustMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/ItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/ItemMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/service/CustService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/CustService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/custmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/custmapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/itemmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/itemmapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/cust/all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/cust/all.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/cust/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/cust/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/item/all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/item/all.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/item/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/item/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/Web04ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/Web11ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/CustController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/CustController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/CustomErrorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/CustMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/CustMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/ItemMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/ItemMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/CustService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/service/CustService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/service/ItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/custmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/custmapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/itemmapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/itemmapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/Web04ApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +54,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -53,12 +81,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/hyosunpark/spring/web11",
+    "last_opened_file_path": "/Users/hyosunpark/spring/web11/src/main/webapp/views/item",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.ChangelistConflict",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons",
     "spring.configuration.checksum": "642ab68178874fc3d905951d003d60eb",
     "vue.rearranger.settings.migration": "true"
   },
@@ -70,50 +98,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/views/item" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/views" />
       <recent name="$PROJECT_DIR$/src/main/resources/mybatis" />
       <recent name="$PROJECT_DIR$/src/test/java/com/kbstar/markerdesc" />
       <recent name="$PROJECT_DIR$/src/main/webapp/views/map" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/kbstar" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/kbstar/service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.kbstar" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kbstar.item" />
       <recent name="com.kbstar.markerdesc" />
       <recent name="com.kbstar.marker" />
       <recent name="com.kbstar.cart" />
       <recent name="com.kbstar.cust" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Web11Application">
-    <configuration name="DeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kbstar.markerdesc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kbstar.markerdesc" />
-      <option name="MAIN_CLASS_NAME" value="com.kbstar.markerdesc.DeleteTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kbstar.markerdesc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kbstar.markerdesc" />
-      <option name="MAIN_CLASS_NAME" value="com.kbstar.markerdesc.InsertTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="SelectDescTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web10" />
       <extension name="coverage">
@@ -144,6 +146,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.item.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar.item" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.item.SelectPageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web10" />
       <extension name="coverage">
@@ -154,6 +171,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kbstar.markerdesc" />
       <option name="MAIN_CLASS_NAME" value="com.kbstar.markerdesc.SelectTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Web11ApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.Web11ApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SelectPageTest" />
+        <item itemvalue="JUnit.Web11ApplicationTests" />
         <item itemvalue="JUnit.SelectOneTest" />
         <item itemvalue="JUnit.SelectDescTest" />
         <item itemvalue="JUnit.SelectTest" />
-        <item itemvalue="JUnit.DeleteTest" />
-        <item itemvalue="JUnit.InsertTest" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +250,7 @@
       <workItem from="1682554355188" duration="19538000" />
       <workItem from="1682640594750" duration="28551000" />
       <workItem from="1682985823122" duration="56000" />
-      <workItem from="1682985881444" duration="79000" />
+      <workItem from="1682985881444" duration="12214000" />
     </task>
     <task id="LOCAL-00001" summary="0426">
       <created>1682482426195</created>
@@ -297,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682666609680</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="0502">
+      <created>1682985991723</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682985991723</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +349,8 @@
     <MESSAGE value="0426" />
     <MESSAGE value="0427" />
     <MESSAGE value="0428" />
-    <option name="LAST_COMMIT_MESSAGE" value="0428" />
+    <MESSAGE value="0502" />
+    <option name="LAST_COMMIT_MESSAGE" value="0502" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -335,6 +375,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/kbstar/cust/SelectOneTest.java</url>
           <line>17</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

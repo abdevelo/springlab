@@ -2,9 +2,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <script>
-    // id 및 pw 전송
     $(function (){
-        login_form.init();
+        login_form.init(); // form정보를 서버에 전송
     });
 
 </script>

@@ -10,6 +10,9 @@
 
 <mapper namespace="com.kbstar.mapper.ItemMapper">
 <!--KBmapper->CustMapper에 있는 함수 명칭(select,insert,...etc)이 select문의 id로 들어옴-->
+    <select id="getpage" resultType="item">
+        SELECT * FROM item ORDER BY id DESC
+    </select>
     <select id="select" parameterType="Integer" resultType="item">
         SELECT * FROM item WHERE id=#{id}
     </select>

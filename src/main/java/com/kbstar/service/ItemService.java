@@ -1,5 +1,7 @@
 package com.kbstar.service;
 
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageHelper;
 import com.kbstar.dto.Item;
 import com.kbstar.mapper.ItemMapper;
 import lombok.extern.slf4j.Slf4j;
@@ -43,5 +45,10 @@ public class ItemService implements KBService<Integer, Item>{
     @Override
     public List<Item> get() throws Exception {
         return mapper.selectall();
+    }
+
+    public Page<Item> getPage(int pageNo) throws Exception {
+        PageHelper.startPage(pageNo, 3); // 3: 한화면에 출력되는 개수
+        return mapper.getpage();
     }
 }
