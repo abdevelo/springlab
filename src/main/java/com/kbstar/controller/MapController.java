@@ -23,7 +23,6 @@ public class MapController {
     MarkerService markerService;
     @Autowired
     MarkerDescService markerDescService;
-
     Logger logger = LoggerFactory.getLogger(this.getClass().getSimpleName());
     String dir = "map/";
 

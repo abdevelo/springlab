@@ -69,15 +69,12 @@ public class MainController {
         }
         return "index";
     }
-
-
 //    @RequestMapping("/loginimpl") //여기 이 클래스를 지정해줌으로써 login 화면에서 입력한 내용이 controller로 오도록 해요
 //    public String loginimpl(Model model,String id, String pwd){
 //        logger.info("----------------------"+"ID : "+id+"PWD : "+pwd); // 브라우저에서 입력된 id, pwd 값을 logger 가 기록해주고 logback.xml에서 설정한 대로 INFO로 콜솔창에 보여줘요
 //        model.addAttribute("center", "login");
 //        return "index";
 //    }
-
     @RequestMapping("/loginimpl")
     public String loginimpl(Model model, String id, String pwd, HttpSession session){
         Cust cust = null;
@@ -115,7 +112,6 @@ public class MainController {
         model.addAttribute("center", "registerok"); // center->registerok 로 바꿔 register완료된 후 registerok.jsp 화면이 나오도록
         return "index";
     }
-
     // url : /quics?page=bs01
     @RequestMapping("/quics")
     public String quics(String page){

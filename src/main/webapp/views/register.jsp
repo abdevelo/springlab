@@ -102,7 +102,7 @@
                     </div>
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-                            <button id="register_btn" type="button" class="btn btn-default">Register</button>
+                            <button id="register_btn" type="button" class="btn btn-primary">Register</button>
                         </div>
                     </div>
                 </form>

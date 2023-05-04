@@ -15,9 +15,6 @@ let login_form = {
     }
 };
 
-
-
-
  // ajax01.jsp
 
 let jsp01={
