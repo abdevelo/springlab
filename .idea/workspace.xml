@@ -4,106 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0502">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0504">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/Web11Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/Web12Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MapController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/index0421.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/index0421.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/ServletInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/WebMessageConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/WebMvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/WebSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/AjaxController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/AjaxImplController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/ChartController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/ChartImplController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/CustController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/ItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/JSPController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MapController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Adm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Cust.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Marker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/MarkerDesc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/dto/Sales.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/frame/KBMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/AdmMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/CartMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/CustMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/ItemMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/MarkerDescMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/MarkerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/mapper/SalesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/AdmService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/CartService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/CustService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/ItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/KBService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/MarkerDescService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/MarkerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/service/SalesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4jdbc.log4j2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/messages/message.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/messages/message_en_US.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/messages/message_ko_KR.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/admmapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/cartmapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/custmapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/itemmapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/markerdescmapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/markermapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/salesmapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/fjords.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/lights.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/img/nature.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/index0421.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/LombokTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/adm/DeleteTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/adm/InsertTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/adm/SelectOneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/adm/SelectTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/adm/UpdateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/cart/DeleteTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/cart/InsertTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/cart/SelectCidTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/cart/SelectOneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/cart/SelectTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/cart/UpdateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/cust/DeleteTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/cust/InsertTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/cust/SelectOneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/cust/SelectTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/cust/UpdateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/item/DeleteTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/item/InsertTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/item/SelectOneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/item/SelectTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/item/UpdateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/marker/DeleteTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/marker/InsertTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/marker/SelectLocTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/marker/SelectOneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/marker/SelectTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/marker/UpdateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/markerdesc/DeleteTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/markerdesc/InsertTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/markerdesc/SelectDescTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/markerdesc/SelectOneTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/markerdesc/SelectTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/markerdesc/UpdateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/sales/InsertTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kbstar/sales/SelectAllTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/markermapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/markermapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,31 +37,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/hyosunpark/spring/web12",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "9d98874d2be4e8d2761d4a9df3bfa321",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hyosunpark/spring/web12&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f2dd87ceab4b20432d10b6fc739b1029&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "oracle"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;oracle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/views/item" />
@@ -178,7 +81,7 @@
       <recent name="com.kbstar.cust" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Web12Application">
     <configuration name="SelectDescTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web10" />
       <extension name="coverage">
@@ -322,7 +225,9 @@
       <workItem from="1682985823122" duration="56000" />
       <workItem from="1682985881444" duration="21739000" />
       <workItem from="1683072079005" duration="7627000" />
-      <workItem from="1683162585708" duration="104000" />
+      <workItem from="1683162585708" duration="1000000" />
+      <workItem from="1683174058699" duration="1057000" />
+      <workItem from="1683185975925" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="0426">
       <created>1682482426195</created>
@@ -422,7 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683005020489</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="0504">
+      <created>1683162723816</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683162723816</updated>
+    </task>
+    <task id="LOCAL-00016" summary="0504">
+      <created>1683162742229</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683162742229</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +355,8 @@
     <MESSAGE value="0427" />
     <MESSAGE value="0428" />
     <MESSAGE value="0502" />
-    <option name="LAST_COMMIT_MESSAGE" value="0502" />
+    <MESSAGE value="0504" />
+    <option name="LAST_COMMIT_MESSAGE" value="0504" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

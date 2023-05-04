@@ -18,7 +18,7 @@
         SELECT * FROM marker
     </select>
     <insert id="insert" parameterType="marker">
-        INSERT INTO marker VALUES (marker_seq.NEXTVAL,#{title},#{target},#{lat},#{lng},#{img},#{loc})
+        INSERT INTO marker VALUES (marker_seq.NEXTVAL,#{title},#{target},#{lat},#{lng},#{img},UPPER(#{loc}))
     </insert>
     <!-- id제외, 6가지 칼럼 수정 가능 -->
     <update id="update" parameterType="marker">
