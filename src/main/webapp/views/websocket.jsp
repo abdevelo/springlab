@@ -51,7 +51,9 @@
       var sid = this.id;
       var socket = new SockJS('http://127.0.0.1:8088/ws');
       this.stompClient = Stomp.over(socket);
-
+// Stomp.over(socket)은 주어진 websocket 객체(socket)를 기반으로
+// 새로운 STOMP 클라이언트를 생성
+//
       this.stompClient.connect({}, function(frame) {
         websocket.setConnected(true);
         console.log('Connected: ' + frame);
@@ -74,14 +76,14 @@
         });
       });
     },
-    disconnect:function(){
+    disconnect:function(){ // disconnect 인지 확인 후 행동
       if (this.stompClient !== null) {
         this.stompClient.disconnect();
       }
       websocket.setConnected(false);
       console.log("Disconnected");
     },
-    setConnected:function(connected){
+    setConnected:function(connected){ // connected 인지 disconnected 인지 화면에 보여주는 역할
       if (connected) {
         $("#status").text("Connected");
       } else {
