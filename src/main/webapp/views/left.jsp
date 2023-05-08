@@ -7,4 +7,5 @@
 
 <div class="col-sm-2 sidenav">
     <p><a href="/pic">Pic</a></p>
+    <p><a href="/websocket">Websocket</a></p>
 </div>

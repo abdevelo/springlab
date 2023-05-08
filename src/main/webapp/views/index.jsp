@@ -32,6 +32,13 @@
 <%--live chart--%>
     <script src="https://code.highcharts.com/modules/data.js"></script>
 
+<%--    websocket--%>
+
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+
+
+
 
     <style>
 
