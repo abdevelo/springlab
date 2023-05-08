@@ -37,8 +37,15 @@
           AND   c.item_id=it.id
     </select>
     <insert id="insert" parameterType="cart">
-        INSERT INTO CART
-        VALUES (cart_seq.NEXTVAL, #{cust_id}, #{item_id}, #{cnt}, SYSDATE)
+        MERGE INTO cart
+            USING dual
+            ON (cust_id = #{cust_id} AND item_id = #{item_id})
+            WHEN NOT MATCHED THEN
+                INSERT (id,cust_id,item_id,cnt,rdate)
+                    VALUES (cart_seq.NEXTVAL, #{cust_id}, #{item_id}, #{cnt}, SYSDATE)
+            WHEN MATCHED THEN
+                UPDATE SET
+                    cnt = cnt+ #{cnt}
     </insert>
     <update id="update" parameterType="cart">
         UPDATE CART

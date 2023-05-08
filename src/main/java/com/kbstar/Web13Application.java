@@ -5,10 +5,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @SpringBootApplication
-public class Web12Application {
+public class Web13Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Web12Application.class, args);
+        SpringApplication.run(Web13Application.class, args);
     }
     @Bean
     public InternalResourceViewResolver setupViewResolver() {

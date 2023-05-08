@@ -6,6 +6,7 @@
         width:150px;
     }
 </style>
+
 <div class="col-sm-8 text-left">
     <div class="container">
         <h3>Marker Detail</h3>

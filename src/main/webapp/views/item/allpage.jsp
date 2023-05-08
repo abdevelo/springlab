@@ -26,9 +26,9 @@
 <%--                    cpage는 페이지 정보이므로 그 속의 list를 꺼내야 함--%>
                     <tr>
                         <td><img src="/img/${obj.imgname}" class="medium_img"></td>
-                        <td>${obj.id}</td>
+                        <td><a href="/item/get?id=${obj.id}">${obj.id}</a></td>
                         <td>${obj.name}</td>
-                        <td><fmt:formatNumber value="${obj.price}" type="currency"/></td>
+                        <td><fmt:formatNumber value="${obj.price}" pattern="###,###원" type="currency"/></td>
                         <td><fmt:formatDate value="${obj.rdate}" pattern="yyyy-MM-dd HH:mm:ss"/></td>
                     </tr>
                 </c:forEach>

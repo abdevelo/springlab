@@ -117,4 +117,13 @@ public class MainController {
     public String quics(String page){
         return page;
     }
+
+
+    @RequestMapping("/pic")
+    public String pic(Model model){
+        model.addAttribute("center", "pic");
+        return "index";
+    }
+
+
 }

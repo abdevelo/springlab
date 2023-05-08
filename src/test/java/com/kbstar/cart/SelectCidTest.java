@@ -17,7 +17,7 @@ class SelectCidTest {
     @Test
     void contextLoads() {
         try {
-            service.getMyCart("id01");
+            service.getMyCart("id04");
         } catch (Exception e) {
             log.info("시스템 장애입니다.==============================");
                 e.printStackTrace();

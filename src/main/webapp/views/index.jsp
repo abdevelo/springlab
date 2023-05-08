@@ -109,7 +109,10 @@
                 <c:otherwise>
 <%--                    로그인을 했으면 아래가 보이고--%>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="/logout"><span class="glyphicon glyphicon-off"></span> Logout</a></li>
+                        <li><a href="/logout"><span class="glyphicon glyphicon-off"></span>LOGOUT</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/item/allcart?id=${logincust.id}"><span class="glyphicon glyphicon-shopping-cart"></span> CART</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="/custinfo?id=${logincust.id}">${logincust.id}</a></li>

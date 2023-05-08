@@ -9,6 +9,5 @@
 <div class="col-sm-8 text-left">
     <h1><spring:message code="site.title"/></h1>
     <p><spring:message code="site.content"/></p>
-    <h1>Welcome Home</h1>
-
+    <h1>다국어가 지원됩니다.</h1>
 </div>

@@ -1,6 +1,5 @@
 package com.kbstar.cart;
 
-import com.kbstar.service.AdmService;
 import com.kbstar.service.CartService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
@@ -16,7 +15,7 @@ class DeleteTest {
     void contextLoads() {
 
         try {
-            service.remove(101);
+            service.remove(102);
         } catch (Exception e) {
             log.info("시스템 장애입니다.==============================");
                 e.printStackTrace();
