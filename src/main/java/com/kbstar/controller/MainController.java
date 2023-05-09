@@ -6,6 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger; // Logger를 import할 때는 slf4j인 것을 확인해요
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,10 +24,14 @@ public class MainController {
     CustService custService;
     Logger logger = LoggerFactory.getLogger(this.getClass().getSimpleName()); // 로그를 선언해줌으로써 System.out으로 console에 내용이 입력되는 것을 막아요
 
+    @Value("${adminserver}")
+    String adminserver;
 
     @RequestMapping("/")
-    public String main(){
-        return "index";
+    public String main(Model model){
+
+        model.addAttribute("adminserver", adminserver);
+    return "index";
     }
 
     @RequestMapping("/login")
@@ -126,6 +131,7 @@ public class MainController {
     }
     @RequestMapping("/websocket")
     public String websocket(Model model){
+        model.addAttribute("adminserver", adminserver);
         model.addAttribute("center", "websocket");
         return "index";
     }

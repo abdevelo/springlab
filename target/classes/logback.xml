@@ -35,6 +35,7 @@
             </timeBasedFileNamingAndTriggeringPolicy>
             <maxHistory>30</maxHistory>
         </rollingPolicy>
+        <!--롤링폴리시 : 5mb 이상(?)이거나 30시간이상(?)이면 새로운 log 파일을 생성해서 기록한다-->
     </appender>
 
     <root level="INFO">

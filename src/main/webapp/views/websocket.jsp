@@ -49,7 +49,7 @@
     },
     connect:function(){
       var sid = this.id;
-      var socket = new SockJS('http://127.0.0.1:8088/ws');
+      var socket = new SockJS('${adminserver}/ws'); // 웹소켓 접속 정보
       this.stompClient = Stomp.over(socket);
 // Stomp.over(socket)은 주어진 websocket 객체(socket)를 기반으로
 // 새로운 STOMP 클라이언트를 생성
