@@ -2,7 +2,9 @@ package com.kbstar.controller;
 
 import com.kbstar.dto.Cust;
 import com.kbstar.service.CustService;
+import com.kbstar.util.WeatherUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.json.simple.parser.ParseException;
 import org.slf4j.Logger; // Logger를 import할 때는 slf4j인 것을 확인해요
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +14,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import javax.servlet.http.HttpSession;
+import java.io.IOException;
 
 @Slf4j
 @Controller
@@ -28,7 +31,10 @@ public class MainController {
     String adminserver;
 
     @RequestMapping("/")
-    public String main(Model model){
+    public String main(Model model) throws IOException, ParseException {
+        //날씨 정보 util 에서 받아오기
+        String result = WeatherUtil.getWeather1("108");
+        model.addAttribute("weatherinfo", result);
 
         model.addAttribute("adminserver", adminserver);
     return "index";

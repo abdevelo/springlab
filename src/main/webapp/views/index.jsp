@@ -67,6 +67,44 @@
             padding: 15px;
         }
 
+        #scroll-btn {
+            opacity: 0;
+            width: 50px;
+            height: 50px;
+            color: #fff;
+            background-color: #ef476f;
+            position: fixed;
+            bottom: 13%;
+            right: 10%;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            font: 2px monospace;
+            transition: opacity 2s, transform 2s;
+        }
+        #scroll-btn.show {
+            opacity: 1;
+            transition: opacity 5s, transform 5s;
+        }
+        #scroll-btn2 {
+            opacity: 0;
+            width: 50px;
+            height: 50px;
+            color: #fff;
+            background-color: #ef476f;
+            position: fixed;
+            bottom: 5%;
+            right: 10%;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            font: bold 10px monospace;
+            transition: opacity 2s, transform 2s;
+        }
+        #scroll-btn2.show {
+            opacity: 1;
+            transition: opacity 5s, transform 5s;
+        }
+
+
         /* On small screens, set height to 'auto' for sidenav and grid */
         @media screen and (max-width: 767px) {
             .sidenav {
@@ -76,6 +114,34 @@
             .row.content {height:auto;}
         }
     </style>
+
+    <script>
+        let chatbtn = {
+            init:function(){
+                const scrollBtn = document.createElement("button");
+                scrollBtn.innerHTML = "chatbot"; // 버튼에 텍스트 추가
+                scrollBtn.setAttribute("id", "scroll-btn"); // 버튼에 아이디 부여
+                document.body.appendChild(scrollBtn); // 바디에 붙이기
+                scrollBtn.classList.add("show");
+                scrollBtn.addEventListener("click", function(){
+                    location.href='/login';
+                });
+                const scrollBtn2 = document.createElement("button");
+                scrollBtn2.innerHTML = "1:1";
+                scrollBtn2.setAttribute("id", "scroll-btn2");
+                document.body.appendChild(scrollBtn2);
+                scrollBtn2.classList.add("show");
+                scrollBtn2.addEventListener("click", function(){
+                    location.href='/login';
+                });
+            }
+        };
+
+        $(function(){
+            chatbtn.init();
+        });
+    </script>
+
 </head>
 <body>
 

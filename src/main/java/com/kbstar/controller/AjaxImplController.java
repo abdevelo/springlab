@@ -8,14 +8,17 @@ import com.kbstar.service.CartService;
 import com.kbstar.service.CustService;
 import com.kbstar.service.MarkerService;
 import com.kbstar.util.FileUploadUtil;
+import com.kbstar.util.WeatherUtil;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.json.simple.parser.ParseException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -129,4 +132,10 @@ public class AjaxImplController {
         FileUploadUtil.saveFile(file, imgdir); // 파일을 저장
         return filename;
     }
+
+    @RequestMapping("/weather2")
+    public Object weather2() throws Exception {
+        return WeatherUtil.getWeather3("108");
+    }
+
 }
