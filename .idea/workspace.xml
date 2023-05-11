@@ -4,14 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0509">
-      <change afterPath="$PROJECT_DIR$/.idea/web15.iml" afterDir="false" />
+    <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0510">
+      <change afterPath="$PROJECT_DIR$/.idea/web16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/NcpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/dto/Ncp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/util/CFRcelebrityUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/util/CFRfaceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/cfr1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/cfr2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/ncp/CFRcelebrityTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/ncp/CFRfaceTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/CustomErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/CustomErrorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/Web14Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/Web15Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/Web15Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/Web16Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/CartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/mapper/CartMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/center.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/pic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/pic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/CustomErrorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/CustomErrorController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/ServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/Web15Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MainController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/hyosunpark/spring/web15",
+    "last_opened_file_path": "/Users/hyosunpark/spring/web16",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,7 +83,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "69eeefa319f0931e40d1f264ba570aee",
+    "spring.configuration.checksum": "92b46c529479995a362a8104cb601ac1",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -72,8 +94,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/kbstar" />
       <recent name="$PROJECT_DIR$/src/main/webapp/views" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/kbstar" />
       <recent name="$PROJECT_DIR$/src/main/webapp/views/item" />
       <recent name="$PROJECT_DIR$/src/main/resources/mybatis" />
       <recent name="$PROJECT_DIR$/src/test/java/com/kbstar/markerdesc" />
@@ -82,14 +104,60 @@
       <recent name="com.kbstar" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.kbstar.weather" />
-      <recent name="com.kbstar.dto" />
-      <recent name="com.kbstar" />
       <recent name="com.kbstar.controller" />
-      <recent name="com.kbstar.item" />
+      <recent name="com.kbstar.dto" />
+      <recent name="com.kbstar.ncp" />
+      <recent name="com.kbstar.weather" />
+      <recent name="com.kbstar" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Web15Application">
+  <component name="RunManager" selected="Spring Boot.Web16Application">
+    <configuration name="CFRcelebrityTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.ncp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar.ncp" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.ncp.CFRcelebrityTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CFRcelebrityTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.ncp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar.ncp" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.ncp.CFRcelebrityTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CFRfaceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.ncp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar.ncp" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.ncp.CFRfaceTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalanderTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web15" />
       <extension name="coverage">
@@ -100,51 +168,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kbstar.weather" />
       <option name="MAIN_CLASS_NAME" value="com.kbstar.weather.CalanderTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web13" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kbstar.cart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kbstar.cart" />
-      <option name="MAIN_CLASS_NAME" value="com.kbstar.cart.DeleteTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectCidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web13" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kbstar.cart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kbstar.cart" />
-      <option name="MAIN_CLASS_NAME" value="com.kbstar.cart.SelectCidTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web13" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kbstar.cart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kbstar.cart" />
-      <option name="MAIN_CLASS_NAME" value="com.kbstar.cart.SelectTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -235,20 +258,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Web15Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="web15" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbstar.Web15Application" />
+    <configuration name="Web16Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web16" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbstar.Web16Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Web16Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web16" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbstar.Web16Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CFRfaceTests" />
+        <item itemvalue="JUnit.CFRcelebrityTests" />
+        <item itemvalue="JUnit.CFRcelebrityTests.contextLoads" />
         <item itemvalue="JUnit.WeatherTest" />
         <item itemvalue="JUnit.CalanderTests" />
-        <item itemvalue="JUnit.SelectTest" />
-        <item itemvalue="JUnit.DeleteTest" />
-        <item itemvalue="JUnit.SelectCidTest" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +306,10 @@
       <workItem from="1683590470686" duration="2236000" />
       <workItem from="1683605299314" duration="8592000" />
       <workItem from="1683677263828" duration="455000" />
-      <workItem from="1683693391420" duration="8729000" />
+      <workItem from="1683693391420" duration="10753000" />
+      <workItem from="1683763284806" duration="7979000" />
+      <workItem from="1683777696808" duration="6124000" />
+      <workItem from="1683786068357" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="0426">
       <created>1682482426195</created>
@@ -439,7 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683624842702</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="0510">
+      <created>1683704541760</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683704541760</updated>
+    </task>
+    <task id="LOCAL-00025" summary="0510">
+      <created>1683704656985</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1683704656985</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +503,8 @@
     <MESSAGE value="0504" />
     <MESSAGE value="0508" />
     <MESSAGE value="0509" />
-    <option name="LAST_COMMIT_MESSAGE" value="0509" />
+    <MESSAGE value="0510" />
+    <option name="LAST_COMMIT_MESSAGE" value="0510" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -496,6 +544,11 @@
           <url>file://$PROJECT_DIR$/src/main/webapp/views/login.jsp</url>
           <line>12</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/kbstar/util/CFRcelebrityUtil.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

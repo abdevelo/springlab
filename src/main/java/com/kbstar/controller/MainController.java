@@ -33,8 +33,8 @@ public class MainController {
     @RequestMapping("/")
     public String main(Model model) throws IOException, ParseException {
         //날씨 정보 util 에서 받아오기
-        String result = WeatherUtil.getWeather1("108");
-        model.addAttribute("weatherinfo", result);
+//        String result = WeatherUtil.getWeather1("108");
+//        model.addAttribute("weatherinfo", result);
 
         model.addAttribute("adminserver", adminserver);
     return "index";
@@ -142,4 +142,15 @@ public class MainController {
         return "index";
     }
 
+    @RequestMapping("/cfr1")
+    public String cfr1(Model model){
+        model.addAttribute("center", "cfr1");
+        return "index";
+    }
+
+    @RequestMapping("/cfr2")
+    public String cfr2(Model model){
+        model.addAttribute("center", "cfr2");
+        return "index";
+    }
 }

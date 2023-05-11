@@ -7,13 +7,14 @@
         myVideoStream:null,
         init:function(interval){
             this.myVideoStream = document.querySelector('#myVideo');
-            $('#cfr_btn').click(function(){
-                $('#cfr_form').attr({
-                    'method':'post',
-                    'action':'/cfrimpl'
-                });
-                $('#cfr_form').submit();
-            });
+            // form 의 버튼을 submit으로 처리하고, form의 action과 method를 선택했음 ㄴ
+            // $('#cfr_btn').click(function(){
+            //     $('#cfr_form').attr({
+            //         'method':'post',
+            //         'action':'/mycfr'
+            //     });
+            //     $('#cfr_form').submit();
+            // });
         },
         getVideo:function(){
             navigator.getMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
@@ -90,8 +91,13 @@
     <input type=button value="send Pic" onclick="pic.send();"><br>
     <input type=button value="Auto Pic" onclick="pic.takeAuto(5000);">
 
-    <form id="cfr_form">
+    <form id="cfr_form" action="/mycfr" method="">
         Image Name:<input type="text" name="imgname" id="imgname"><br>
-        <button id="cfr_btn">CFR</button>
+        <button type="submit" id="cfr_btn">CFR</button>
     </form>
+
+    <h2>${result.emotion}</h2>
+    <h2>${result.pose}</h2>
+    <h2>${result.gender}</h2>
+    <h2>${result.age}</h2>
 </div>

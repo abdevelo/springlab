@@ -16,7 +16,6 @@
                 url:'/weather2',
                 success:function(data){
                     center.display(data);
-                    alert(data);
                 }
             })
         },
@@ -34,7 +33,7 @@
         }
     };
     $(function(){
-        center.init();
+        // center.init();
     });
 </script>
 

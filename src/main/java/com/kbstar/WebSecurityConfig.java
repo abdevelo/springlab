@@ -23,6 +23,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        // CORS 정책 관련 이슈 해결 클래스 configure
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.addAllowedOrigin(CorsConfiguration.ALL);
         configuration.addAllowedMethod(CorsConfiguration.ALL);

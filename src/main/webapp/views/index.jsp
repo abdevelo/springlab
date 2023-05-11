@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> <%--JSTl (프로그래밍적 요소)--%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %> <%--통화, 날짜 틀--%>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %> <%--다국어용--%>
 
 <!DOCTYPE html>
@@ -17,23 +17,18 @@
     <script src="/js/index0421.js"></script>
 <%--카카오맵api --%>
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=e8baa2c2fda88e720d607644c62ab5ae"></script>
-<%--  chart01 --%>
+<%--  chart--%>
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/series-label.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
     <script src="https://code.highcharts.com/modules/accessibility.js"></script>
-<%--chart 02--%>
     <script src="https://code.highcharts.com/highcharts-3d.js"></script>
     <script src="https://code.highcharts.com/modules/accessibility.js"></script>
-<%--chart0302--%>
     <script src="https://code.highcharts.com/modules/cylinder.js"></script>
-<%--chart0303--%>
 <%--live chart--%>
     <script src="https://code.highcharts.com/modules/data.js"></script>
-
 <%--    websocket--%>
-
     <script src="/webjars/sockjs-client/sockjs.min.js"></script>
     <script src="/webjars/stomp-websocket/stomp.min.js"></script>
 
