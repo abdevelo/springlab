@@ -4,6 +4,7 @@ import com.kbstar.dto.Ncp;
 import com.kbstar.util.CFRcelebrityUtil;
 import com.kbstar.util.CFRfaceUtil;
 import com.kbstar.util.FileUploadUtil;
+import com.kbstar.util.OCRutil;
 import com.sun.tools.jconsole.JConsoleContext;
 import lombok.extern.slf4j.Slf4j;
 import org.json.simple.JSONArray;
@@ -115,4 +116,34 @@ public class NcpController {
         return "index";
     }
 
+
+    @RequestMapping("/ocrimpl1")
+    public String ocrimpl1(Model model, Ncp ncp){
+        // 1. 이미지를 서버에 저장
+        FileUploadUtil.saveFile(ncp.getImg(),imgpath); // ncp의 이미지를 가져와서 imgpath에 저장해라
+        // 2. 저장한 이미지를 ncp 에 물어본다
+        String imgname = ncp.getImg().getOriginalFilename();
+        JSONObject result =(JSONObject) OCRutil.getResult(imgpath,imgname);
+
+        Map map = OCRutil.getData(result);
+
+        model.addAttribute("result",map);
+        model.addAttribute("center","ocr1");
+        return "index";
+    }
+
+    @RequestMapping("/ocrimpl2")
+    public String ocrimpl2(Model model, Ncp ncp){
+        // 1. 이미지를 서버에 저장
+        FileUploadUtil.saveFile(ncp.getImg(),imgpath); // ncp의 이미지를 가져와서 imgpath에 저장해라
+        // 2. 저장한 이미지를 ncp 에 물어본다
+        String imgname = ncp.getImg().getOriginalFilename();
+        JSONObject result =(JSONObject) OCRutil.getResult(imgpath,imgname);
+
+        Map map = OCRutil.getData2(result);
+
+        model.addAttribute("result",map);
+        model.addAttribute("center","ocr2");
+        return "index";
+    }
 }
