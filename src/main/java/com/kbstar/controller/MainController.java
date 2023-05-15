@@ -2,7 +2,6 @@ package com.kbstar.controller;
 
 import com.kbstar.dto.Cust;
 import com.kbstar.service.CustService;
-import com.kbstar.util.WeatherUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.json.simple.parser.ParseException;
 import org.slf4j.Logger; // Logger를 import할 때는 slf4j인 것을 확인해요
@@ -168,6 +167,26 @@ public class MainController {
     @RequestMapping("/ocr2")
     public String ocr2(Model model) {
         model.addAttribute("center", "ocr2");
+        return "index";
+    }
+
+    @RequestMapping("/chatbot")
+    public String chatbot(Model model, HttpSession session) {
+        if( session.getAttribute("logincust") == null ){
+            return "redirect:/login";
+        }
+        model.addAttribute("adminserver", adminserver);
+        model.addAttribute("center", "chatbot");
+        return "index";
+    }
+
+    @RequestMapping("/callcenter")
+    public String callcenter(Model model, HttpSession session) {
+        if( session.getAttribute("logincust") == null ){
+            return "redirect:/login";
+        }
+        model.addAttribute("adminserver", adminserver);
+        model.addAttribute("center", "callcenter");
         return "index";
     }
 

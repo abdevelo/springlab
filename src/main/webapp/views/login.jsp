@@ -14,7 +14,6 @@
             <div class="col-sm-8 alert alert-danger">
                 <strong>Danger!</strong> Keep you safe from the possibility of hacking your keyboard
             </div>
-
             <hr>
             <form id="login_form" class="form-horizontal well col-sm-8">
                 <div class="input-group">
@@ -32,9 +31,7 @@
                 <button type="button" id="login_btn" name="login_btn" class="btn btn-primary">LOGIN</button>
                 <button type="button" class="btn btn-danger">JOIN</button> <br/><br/>
                 <button type="button" class="btn btn-success">Forget?</button>
-
             </form>
-
         </div>
     </div>
 </div>

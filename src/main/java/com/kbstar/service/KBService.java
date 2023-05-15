@@ -1,7 +1,6 @@
 package com.kbstar.service;
 
 import org.springframework.transaction.annotation.Transactional;
-
 import java.util.List;
 
 public interface KBService<K,V> {

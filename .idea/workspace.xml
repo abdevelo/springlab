@@ -4,20 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0511">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/util/OCRutil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/ocr1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/ocr2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/ncp/OCRTests.java" afterDir="false" />
+    <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0512">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/callcenter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chatbot.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/Web16Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/Web17Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/Web17Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/Web18Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/NcpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/NcpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/left.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/service/KBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/KBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/CalanderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/CalanderTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/ServletInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/WebSecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MainController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/hyosunpark/spring/web17/src/main/webapp/views",
+    "last_opened_file_path": "/Users/hyosunpark/spring/web18/src/main/webapp/views",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,7 +71,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "92b46c529479995a362a8104cb601ac1",
+    "spring.configuration.checksum": "cb72c63323b4bef8b267c624528a104c",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -80,10 +83,13 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/views" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/java/com/kbstar" />
       <recent name="$PROJECT_DIR$/src/main/webapp/views/item" />
       <recent name="$PROJECT_DIR$/src/main/resources/mybatis" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/kbstar/markerdesc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/views" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.kbstar" />
@@ -96,7 +102,7 @@
       <recent name="com.kbstar" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Web17Application (1)">
+  <component name="RunManager" selected="Spring Boot.Web18Application">
     <configuration name="CFRcelebrityTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web17" />
       <extension name="coverage">
@@ -112,31 +118,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CFRcelebrityTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web16" />
+    <configuration name="InsertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kbstar.ncp.*" />
+          <option name="PATTERN" value="com.kbstar.cust.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kbstar.ncp" />
-      <option name="MAIN_CLASS_NAME" value="com.kbstar.ncp.CFRcelebrityTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CFRfaceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web16" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kbstar.ncp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kbstar.ncp" />
-      <option name="MAIN_CLASS_NAME" value="com.kbstar.ncp.CFRfaceTests" />
+      <option name="PACKAGE_NAME" value="com.kbstar.cust" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.cust.InsertTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,6 +160,21 @@
       <option name="MAIN_CLASS_NAME" value="com.kbstar.ncp.OCRTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.cust.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar.cust" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.cust.SelectTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -278,13 +284,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Web18Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web18" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbstar.Web18Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Web18Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web18" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbstar.Web18Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Web18Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web18" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbstar.Web18Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SelectTest" />
+        <item itemvalue="JUnit.InsertTest" />
         <item itemvalue="JUnit.OCRTests" />
         <item itemvalue="JUnit.OCRTests.contextLoads" />
         <item itemvalue="JUnit.CFRcelebrityTests (1)" />
-        <item itemvalue="JUnit.CFRfaceTests" />
-        <item itemvalue="JUnit.CFRcelebrityTests" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +345,9 @@
       <workItem from="1683786068357" duration="2258000" />
       <workItem from="1683789548142" duration="3401000" />
       <workItem from="1683813542804" duration="3815000" />
-      <workItem from="1683849855636" duration="9296000" />
+      <workItem from="1683849855636" duration="10053000" />
+      <workItem from="1683875626366" duration="15247000" />
+      <workItem from="1684109227788" duration="15769000" />
     </task>
     <task id="LOCAL-00001" summary="0426">
       <created>1682482426195</created>
@@ -509,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683786966335</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="0512">
+      <created>1683871692831</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1683871692831</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +564,8 @@
     <MESSAGE value="0509" />
     <MESSAGE value="0510" />
     <MESSAGE value="0511" />
-    <option name="LAST_COMMIT_MESSAGE" value="0511" />
+    <MESSAGE value="0512" />
+    <option name="LAST_COMMIT_MESSAGE" value="0512" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -556,12 +593,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java</url>
-          <line>42</line>
+          <line>41</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java</url>
-          <line>105</line>
+          <line>104</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -583,6 +620,26 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/kbstar/ncp/OCRTests.java</url>
           <line>15</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/views/index.jsp</url>
+          <line>37</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/views/index.jsp</url>
+          <line>112</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/views/chatbot.jsp</url>
+          <line>27</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/views/center.jsp</url>
+          <line>11</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -64,7 +64,6 @@
         }
     };
 
-
     $(function (){
         register_form.init();
     });

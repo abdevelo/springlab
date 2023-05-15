@@ -73,7 +73,7 @@
             right: 10%;
             border: 2px solid #fff;
             border-radius: 50%;
-            font: 2px monospace;
+            font: 10px monospace;
             transition: opacity 2s, transform 2s;
         }
         #scroll-btn.show {
@@ -114,12 +114,12 @@
         let chatbtn = {
             init:function(){
                 const scrollBtn = document.createElement("button");
-                scrollBtn.innerHTML = "chatbot"; // 버튼에 텍스트 추가
+                scrollBtn.innerHTML = "챗봇"; // 버튼에 텍스트 추가
                 scrollBtn.setAttribute("id", "scroll-btn"); // 버튼에 아이디 부여
                 document.body.appendChild(scrollBtn); // 바디에 붙이기
                 scrollBtn.classList.add("show");
                 scrollBtn.addEventListener("click", function(){
-                    location.href='/login';
+                    location.href='/chatbot';
                 });
                 const scrollBtn2 = document.createElement("button");
                 scrollBtn2.innerHTML = "1:1";
@@ -127,7 +127,7 @@
                 document.body.appendChild(scrollBtn2);
                 scrollBtn2.classList.add("show");
                 scrollBtn2.addEventListener("click", function(){
-                    location.href='/login';
+                    location.href='/callcenter';
                 });
             }
         };
