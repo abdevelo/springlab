@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0512">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/callcenter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chatbot.jsp" afterDir="false" />
+    <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0515">
+      <change afterPath="$PROJECT_DIR$/.idea/web19.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/Web17Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/Web18Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/service/KBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/service/KBService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/CalanderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/CalanderTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/Web18Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/Web19Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/ServletInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/ServletInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kbstar/controller/MainController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/hyosunpark/spring/web18/src/main/webapp/views",
+    "last_opened_file_path": "/Users/hyosunpark/spring/web19",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -102,7 +92,7 @@
       <recent name="com.kbstar" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Web18Application">
+  <component name="RunManager" selected="Spring Boot.Web19Application">
     <configuration name="CFRcelebrityTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web17" />
       <extension name="coverage">
@@ -175,6 +165,19 @@
       <option name="PACKAGE_NAME" value="com.kbstar.cust" />
       <option name="MAIN_CLASS_NAME" value="com.kbstar.cust.SelectTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="web18" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="web18" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -298,9 +301,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Web18Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="web18" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbstar.Web18Application" />
+    <configuration name="Web19Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web19" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbstar.Web19Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Web19Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web19" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbstar.Web19Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -347,7 +357,8 @@
       <workItem from="1683813542804" duration="3815000" />
       <workItem from="1683849855636" duration="10053000" />
       <workItem from="1683875626366" duration="15247000" />
-      <workItem from="1684109227788" duration="15769000" />
+      <workItem from="1684109227788" duration="16843000" />
+      <workItem from="1684195207104" duration="676000" />
     </task>
     <task id="LOCAL-00001" summary="0426">
       <created>1682482426195</created>
@@ -545,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683871692831</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="0515">
+      <created>1684139793397</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1684139793397</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +583,8 @@
     <MESSAGE value="0510" />
     <MESSAGE value="0511" />
     <MESSAGE value="0512" />
-    <option name="LAST_COMMIT_MESSAGE" value="0512" />
+    <MESSAGE value="0515" />
+    <option name="LAST_COMMIT_MESSAGE" value="0515" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
