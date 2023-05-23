@@ -1,6 +1,14 @@
-package com.example.model;
+package com.example.demo.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class UserProfile {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
     private String name;
     private String phone;
@@ -11,6 +19,10 @@ public class UserProfile {
         this.name = name;
         this.phone = phone;
         this.address = address;
+    }
+
+    public UserProfile() {
+
     }
 
     public String getId() {
