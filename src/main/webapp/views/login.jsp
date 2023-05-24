@@ -1,10 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<script src="https://www.google.com/recaptcha/api.js"></script>
 <script>
     $(function (){
         login_form.init(); // form정보를 서버에 전송
     });
+
+    function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+    }
 
 </script>
 
@@ -16,6 +21,7 @@
             </div>
             <hr>
             <form id="login_form" class="form-horizontal well col-sm-8">
+                <input type="hidden" name="redirectURL" value="${redirectURL}">
                 <div class="input-group">
                     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                     <input id="id" type="text" class="form-control" name="id" placeholder="id">
@@ -31,6 +37,10 @@
                 <button type="button" id="login_btn" name="login_btn" class="btn btn-primary">LOGIN</button>
                 <button type="button" class="btn btn-danger">JOIN</button> <br/><br/>
                 <button type="button" class="btn btn-success">Forget?</button>
+                <button class="g-recaptcha"
+                        data-sitekey="reCAPTCHA_site_key"
+                        data-callback='onSubmit'
+                        data-action='submit'>Submit</button>
             </form>
         </div>
     </div>
