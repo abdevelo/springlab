@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: hyosunpark
+Build-Jdk: Oracle OpenJDK version 11.0.19
+Implementation-Title: web20
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.kbstar
+Main-Class: ${start-class}
+

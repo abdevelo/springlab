@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kbstar.mapper.CartMapper">
+
+    <select id="select" parameterType="Integer" resultType="cart">
+        select c.id, c.cust_id, c.item_id, c.cnt, c.rdate
+             ,cu.name AS cust_name, it.name AS item_name
+             , it.price AS item_price , it.imgname AS item_imgname
+        from cart c ,
+             cust cu,
+             item it
+        where c.cust_id=cu.id
+          AND c.item_id=it.id
+          And c.id=#{id}
+    </select>
+    <select id="getMyCart" parameterType="String" resultType="cart">
+        select c.id, c.cust_id, c.item_id, c.cnt, c.rdate
+             ,cu.name AS cust_name, it.name AS item_name
+             , it.price AS item_price , it.imgname AS item_imgname
+        from cart c ,
+             cust cu,
+             item it
+        where c.cust_id=cu.id
+        AND c.item_id=it.id
+        AND c.cust_id= #{cid}
+    </select>
+    <select id="selectall" resultType="cart">
+        select c.id, c.cust_id, c.item_id, c.cnt, c.rdate
+             ,cu.name AS cust_name, it.name AS item_name
+             , it.price AS item_price , it.imgname AS item_imgname
+        from cart c ,
+             cust cu,
+             item it
+        where c.cust_id=cu.id
+          AND   c.item_id=it.id
+    </select>
+    <insert id="insert" parameterType="cart">
+        MERGE INTO cart
+            USING dual
+            ON (cust_id = #{cust_id} AND item_id = #{item_id})
+            WHEN NOT MATCHED THEN
+                INSERT (id,cust_id,item_id,cnt,rdate)
+                    VALUES (cart_seq.NEXTVAL, #{cust_id}, #{item_id}, #{cnt}, SYSDATE)
+            WHEN MATCHED THEN
+                UPDATE SET
+                    cnt = cnt+ #{cnt}
+    </insert>
+    <update id="update" parameterType="cart">
+        UPDATE CART
+        SET
+            CUST_ID=#{cust_id},
+            ITEM_ID=#{item_id},
+            CNT=#{cnt},
+            RDATE=SYSDATE
+        WHERE ID = #{id}
+    </update>
+    <delete id="delete" parameterType="Integer">
+        DELETE
+        FROM CART
+        WHERE ID = #{id}
+    </delete>
+
+</mapper>

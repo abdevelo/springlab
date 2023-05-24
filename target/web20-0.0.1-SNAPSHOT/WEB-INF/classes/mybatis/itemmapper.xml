@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">-->
+<!--</beans>-->
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kbstar.mapper.ItemMapper">
+<!--KBmapper->CustMapper에 있는 함수 명칭(select,insert,...etc)이 select문의 id로 들어옴-->
+    <select id="getpage" resultType="item">
+        SELECT * FROM item ORDER BY id DESC
+    </select>
+    <select id="select" parameterType="Integer" resultType="item">
+        SELECT * FROM item WHERE id=#{id}
+    </select>
+    <select id="selectall" resultType="item">
+        SELECT * FROM item
+    </select>
+    <insert id="insert" parameterType="item">
+        INSERT INTO item VALUES (item_seq.NEXTVAL,#{name},#{price},#{imgname},SYSDATE)
+    </insert>
+    <update id="update" parameterType="item">
+        UPDATE item SET name=#{name},price=#{price},imgname=#{imgname} WHERE id=#{id}
+    </update>
+    <delete id="delete" parameterType="Integer">
+        DELETE FROM item WHERE id=#{id}
+    </delete>
+
+</mapper>
