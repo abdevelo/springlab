@@ -1,0 +1,208 @@
+[2023-05-22 09:14:16:1368][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-22 09:14:16:1401][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 74 mappings in 'requestMappingHandlerMapping'
+[2023-05-22 09:14:16:1532][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-22 09:14:16:1540][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-22 09:14:24:9431][http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-05-22 09:14:24:9432][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2023-05-22 09:14:24:9432][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+[2023-05-22 09:14:24:9432][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+[2023-05-22 09:14:24:9434][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1f3f3337
+[2023-05-22 09:14:24:9434][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@405f30b
+[2023-05-22 09:14:24:9434][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2023-05-22 09:14:24:9435][http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[2023-05-22 09:14:24:9452][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2023-05-22 09:14:24:9454][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#main(Model)
+[2023-05-22 09:14:24:9467][http-nio-80-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-22 09:14:24:9467][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {adminserver=http://172.16.21.165:8088}
+[2023-05-22 09:14:24:9468][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-22 09:14:25:9868][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:14:25:9959][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-22 09:14:25:9963][http-nio-80-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-22 09:14:25:9966][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-22 09:14:25:9967][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-22 09:14:25:9968][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:14:25:9968][http-nio-80-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:14:25:9973][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:14:25:9973][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:14:25:9975][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:14:26:11356][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/favicon.ico", parameters={}
+[2023-05-22 09:14:26:11357][http-nio-80-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-22 09:14:26:11360][http-nio-80-exec-5] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+[2023-05-22 09:14:26:11360][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+[2023-05-22 09:14:26:11361][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+[2023-05-22 09:14:26:11363][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+[2023-05-22 09:14:26:11384][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-22 09:14:26:11385][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Mon May 22 09:14:26 KST 2023, status=404, error=Not Found, message=No message available,  (truncated)...]
+[2023-05-22 09:14:26:11424][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+[2023-05-22 09:18:32:513][main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3e521715
+[2023-05-22 09:18:33:1768][main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-22 09:18:33:1822][main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 74 mappings in 'requestMappingHandlerMapping'
+[2023-05-22 09:18:33:2099][main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-22 09:18:33:2108][main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-22 09:18:34:2477][SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@3e521715, started on Mon May 22 09:18:32 KST 2023
+[2023-05-22 09:27:24:1435][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-22 09:27:24:1469][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 74 mappings in 'requestMappingHandlerMapping'
+[2023-05-22 09:27:24:1589][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-22 09:27:24:1598][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-22 09:27:30:7573][http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-05-22 09:27:30:7574][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+[2023-05-22 09:27:30:7574][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+[2023-05-22 09:27:30:7574][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+[2023-05-22 09:27:30:7576][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@558983a4
+[2023-05-22 09:27:30:7576][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@259f1a4d
+[2023-05-22 09:27:30:7576][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2023-05-22 09:27:30:7576][http-nio-80-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+[2023-05-22 09:27:30:7605][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+[2023-05-22 09:27:30:7611][http-nio-80-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#main(Model)
+[2023-05-22 09:27:31:7631][http-nio-80-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-22 09:27:31:7631][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {adminserver=http://172.16.21.165:8088}
+[2023-05-22 09:27:31:7633][http-nio-80-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-22 09:27:31:8232][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:31:8267][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-22 09:27:31:8272][http-nio-80-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-22 09:27:31:8272][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-22 09:27:31:8273][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-22 09:27:31:8273][http-nio-80-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:27:31:8274][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:27:31:8281][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:31:8281][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:31:8282][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:34:11155][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/login", parameters={}
+[2023-05-22 09:27:34:11156][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#login(Model)
+[2023-05-22 09:27:34:11158][http-nio-80-exec-5] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-22 09:27:34:11158][http-nio-80-exec-5] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=login}
+[2023-05-22 09:27:34:11158][http-nio-80-exec-5] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-22 09:27:34:11218][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:34:11234][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-22 09:27:34:11235][http-nio-80-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-22 09:27:34:11237][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:34:11244][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-22 09:27:34:11244][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-22 09:27:34:11245][http-nio-80-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:27:34:11245][http-nio-80-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:27:34:11246][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:34:11247][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:39:16143][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/loginimpl?id=id04&pwd=pwd04", parameters={masked}
+[2023-05-22 09:27:39:16144][http-nio-80-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#loginimpl(Model, String, String, HttpSession)
+[2023-05-22 09:27:39:16487][http-nio-80-exec-9] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-22 09:27:39:16487][http-nio-80-exec-9] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=loginfail}
+[2023-05-22 09:27:39:16487][http-nio-80-exec-9] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-22 09:27:39:16511][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:39:16543][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-22 09:27:39:16543][http-nio-80-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-22 09:27:39:16545][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:39:16545][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-22 09:27:39:16545][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-22 09:27:39:16546][http-nio-80-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:27:39:16546][http-nio-80-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:27:39:16547][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:39:16547][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:42:18761][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/login", parameters={}
+[2023-05-22 09:27:42:18762][http-nio-80-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#login(Model)
+[2023-05-22 09:27:42:18762][http-nio-80-exec-4] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-22 09:27:42:18763][http-nio-80-exec-4] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=login}
+[2023-05-22 09:27:42:18763][http-nio-80-exec-4] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-22 09:27:42:18766][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:42:18780][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-22 09:27:42:18781][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-22 09:27:42:18782][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:42:18783][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-22 09:27:42:18784][http-nio-80-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:27:42:18785][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-22 09:27:42:18785][http-nio-80-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:27:42:18786][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:42:18787][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:48:24796][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/loginimpl?id=id03&pwd=pwd03", parameters={masked}
+[2023-05-22 09:27:48:24798][http-nio-80-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#loginimpl(Model, String, String, HttpSession)
+[2023-05-22 09:27:48:24828][http-nio-80-exec-8] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-22 09:27:48:24828][http-nio-80-exec-8] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=loginfail}
+[2023-05-22 09:27:48:24829][http-nio-80-exec-8] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-22 09:27:48:24836][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:48:24861][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-22 09:27:48:24862][http-nio-80-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-22 09:27:48:24864][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:48:24865][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-22 09:27:48:24865][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-22 09:27:48:24866][http-nio-80-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:27:48:24866][http-nio-80-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:27:48:24867][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:48:24868][http-nio-80-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:51:27987][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/register", parameters={}
+[2023-05-22 09:27:51:27988][http-nio-80-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#register(Model)
+[2023-05-22 09:27:51:27989][http-nio-80-exec-2] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-22 09:27:51:27989][http-nio-80-exec-2] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {center=register}
+[2023-05-22 09:27:51:27989][http-nio-80-exec-2] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-22 09:27:51:28051][http-nio-80-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:51:28065][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-22 09:27:51:28066][http-nio-80-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-22 09:27:51:28069][http-nio-80-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:51:28069][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-22 09:27:51:28070][http-nio-80-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:27:51:28071][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-22 09:27:51:28072][http-nio-80-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:27:51:28073][http-nio-80-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:51:28073][http-nio-80-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:27:54:31143][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/checkid?id=id04", parameters={masked}
+[2023-05-22 09:27:54:31145][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.AjaxImplController#checkid(String)
+[2023-05-22 09:27:54:31272][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2023-05-22 09:27:54:31274][http-nio-80-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [0]
+[2023-05-22 09:27:54:31292][http-nio-80-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:28:00:36945][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/registerimpl", parameters={masked}
+[2023-05-22 09:28:00:36945][http-nio-80-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.kbstar.controller.MainController#registerimpl(Model, Cust, HttpSession)
+[2023-05-22 09:28:00:37187][http-nio-80-exec-6] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+[2023-05-22 09:28:00:37192][http-nio-80-exec-6] DEBUG o.s.web.servlet.view.JstlView - View name 'index', model {cust=Cust(id=id04, pwd=$2a$10$LSNd.i2chUUYrcQMWjsONO56Z3oAFOJDQU316UDt/wxnITljBUi8O, name=카리나), org.springframework.validation.BindingResult.cust=org.springframework.validation.BeanPropertyBindingResult: 0 errors, rcust=Cust(id=id04, pwd=$2a$10$LSNd.i2chUUYrcQMWjsONO56Z3oAFOJDQU316UDt/wxnITljBUi8O, name=카리나), center=registerok, org.springframework.validation.BindingResult.rcust=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[2023-05-22 09:28:00:37192][http-nio-80-exec-6] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/views/index.jsp]
+[2023-05-22 09:28:00:37224][http-nio-80-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:28:00:37245][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/js/index0421.js", parameters={}
+[2023-05-22 09:28:00:37245][http-nio-80-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2023-05-22 09:28:00:37246][http-nio-80-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:28:00:37246][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/sockjs-client/sockjs.min.js", parameters={}
+[2023-05-22 09:28:00:37246][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/stomp-websocket/stomp.min.js", parameters={}
+[2023-05-22 09:28:00:37246][http-nio-80-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:28:00:37246][http-nio-80-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2023-05-22 09:28:00:37248][http-nio-80-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:28:00:37249][http-nio-80-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2023-05-22 09:36:04:1444][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-22 09:36:04:1477][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 74 mappings in 'requestMappingHandlerMapping'
+[2023-05-22 09:36:04:1598][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-22 09:36:04:1607][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-22 09:53:41:1057874][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-22 09:53:41:1057915][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 74 mappings in 'requestMappingHandlerMapping'
+[2023-05-22 09:53:41:1058060][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-22 09:53:41:1058069][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-22 09:53:41:677][main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@265c5d69
+[2023-05-22 09:53:43:2082][main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-22 09:53:43:2141][main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 74 mappings in 'requestMappingHandlerMapping'
+[2023-05-22 09:53:43:1059988][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-22 09:53:43:1060015][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 74 mappings in 'requestMappingHandlerMapping'
+[2023-05-22 09:53:43:1060113][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-22 09:53:43:1060121][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-22 09:53:43:2622][main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-22 09:53:43:2630][main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-22 09:53:44:3206][SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@265c5d69, started on Mon May 22 09:53:41 KST 2023
+[2023-05-22 09:54:54:490][main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@265c5d69
+[2023-05-22 09:54:55:1132193][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-22 09:54:55:1132216][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 74 mappings in 'requestMappingHandlerMapping'
+[2023-05-22 09:54:55:1132298][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-22 09:54:55:1132305][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-22 09:54:56:1882][main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-22 09:54:56:1936][main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 74 mappings in 'requestMappingHandlerMapping'
+[2023-05-22 09:54:56:2235][main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-22 09:54:56:2244][main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-22 09:54:57:2721][SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@265c5d69, started on Mon May 22 09:54:54 KST 2023
+[2023-05-22 10:01:11:593][main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@265c5d69
+[2023-05-22 10:01:11:1507833][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-22 10:01:11:1507852][restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 74 mappings in 'requestMappingHandlerMapping'
+[2023-05-22 10:01:11:1507943][restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-22 10:01:11:1507951][restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-22 10:01:12:1940][main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-22 10:01:12:1990][main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 74 mappings in 'requestMappingHandlerMapping'
+[2023-05-22 10:01:12:2235][main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-22 10:01:12:2243][main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-22 10:01:14:3672][SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@265c5d69, started on Mon May 22 10:01:11 KST 2023
+[2023-05-22 10:02:39:468][main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@265c5d69
+[2023-05-22 10:02:40:1728][main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2023-05-22 10:02:40:1778][main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 74 mappings in 'requestMappingHandlerMapping'
+[2023-05-22 10:02:40:2042][main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /img/**, /logs/**] in 'resourceHandlerMapping'
+[2023-05-22 10:02:40:2050][main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+[2023-05-22 10:02:42:3336][SpringApplicationShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@265c5d69, started on Mon May 22 10:02:39 KST 2023

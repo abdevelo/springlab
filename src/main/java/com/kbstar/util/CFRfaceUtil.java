@@ -3,14 +3,24 @@ package com.kbstar.util;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLConnection;
 
+@Component
 public class CFRfaceUtil {
-    public static Object getResult (String imgpath, String imgname) throws ParseException {
+
+    @Value("${cfr_id}")
+    String cfr_id;
+
+    @Value("${cfr_key}")
+    String cfr_key;
+
+    public Object getResult (String imgpath, String imgname) throws ParseException {
 
         String result = "";
 // 네이버 얼굴인식 API 예제

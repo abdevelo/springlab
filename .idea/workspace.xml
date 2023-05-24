@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web20:war" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0516">
+    <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0517">
+      <change afterPath="$PROJECT_DIR$/file:/Users/hyosunpark/logs/custinfo.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file:/Users/hyosunpark/logs/logback.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/JasyptConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/NcpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/NcpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/util/CFRcelebrityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/util/CFRcelebrityUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/util/CFRfaceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/util/CFRfaceUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/ncp/CFRcelebrityTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/ncp/CFRcelebrityTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kbstar/ncp/CFRfaceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/ncp/CFRfaceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +71,10 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;ssh.settings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b5d44e53c2c112dca16475f26d303525&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;348715a219e63f29c323fc5ee6b856f9&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -88,9 +105,9 @@
       <recent name="com.kbstar" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Web20Application">
-    <configuration name="CFRcelebrityTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web17" />
+  <component name="RunManager" selected="Spring Boot.Web22Application">
+    <configuration name="CFRcelebrityTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web20" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kbstar.ncp.*" />
@@ -99,6 +116,36 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kbstar.ncp" />
       <option name="MAIN_CLASS_NAME" value="com.kbstar.ncp.CFRcelebrityTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CFRfaceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web20" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.ncp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar.ncp" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.ncp.CFRfaceTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncTests2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web20" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.enc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar.enc" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.enc.EncTests2" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,37 +162,6 @@
       <option name="PACKAGE_NAME" value="com.kbstar.cust" />
       <option name="MAIN_CLASS_NAME" value="com.kbstar.cust.InsertTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OCRTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web17" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kbstar.ncp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kbstar.ncp" />
-      <option name="MAIN_CLASS_NAME" value="com.kbstar.ncp.OCRTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OCRTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web17" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kbstar.ncp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kbstar.ncp" />
-      <option name="MAIN_CLASS_NAME" value="com.kbstar.ncp.OCRTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -311,20 +327,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Web20Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="web20" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbstar.Web20Application" />
+    <configuration name="Web22Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web22" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbstar.Web22Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Web22Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="web22" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kbstar.Web22Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CFRfaceTests" />
+        <item itemvalue="JUnit.CFRcelebrityTests" />
+        <item itemvalue="JUnit.EncTests2" />
         <item itemvalue="JUnit.SelectTest" />
         <item itemvalue="JUnit.InsertTest" />
-        <item itemvalue="JUnit.OCRTests" />
-        <item itemvalue="JUnit.OCRTests.contextLoads" />
-        <item itemvalue="JUnit.CFRcelebrityTests (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -367,6 +390,13 @@
       <workItem from="1684195207104" duration="8663000" />
       <workItem from="1684250936673" duration="733000" />
       <workItem from="1684282434172" duration="64000" />
+      <workItem from="1684282510626" duration="7438000" />
+      <workItem from="1684290181576" duration="2298000" />
+      <workItem from="1684375663788" duration="5058000" />
+      <workItem from="1684713790886" duration="12434000" />
+      <workItem from="1684737975660" duration="321000" />
+      <workItem from="1684809246191" duration="1801000" />
+      <workItem from="1684822501073" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="0426">
       <created>1682482426195</created>
@@ -585,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684215947843</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="0517">
+      <created>1684282589676</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1684282589676</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,7 +644,8 @@
     <MESSAGE value="0512" />
     <MESSAGE value="0515" />
     <MESSAGE value="0516" />
-    <option name="LAST_COMMIT_MESSAGE" value="0516" />
+    <MESSAGE value="0517" />
+    <option name="LAST_COMMIT_MESSAGE" value="0517" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -650,13 +688,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/kbstar/util/CFRcelebrityUtil.java</url>
-          <line>82</line>
+          <line>93</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/kbstar/ncp/CFRcelebrityTests.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/kbstar/ncp/OCRTests.java</url>
@@ -682,6 +715,11 @@
           <url>file://$PROJECT_DIR$/src/main/webapp/views/center.jsp</url>
           <line>11</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/kbstar/ncp/CFRcelebrityTests.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

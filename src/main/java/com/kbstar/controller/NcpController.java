@@ -12,6 +12,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -26,13 +27,21 @@ public class NcpController {
 
     @Value("${uploadimgdir}")
     String imgpath = "/Users/hyosunpark/uimg/";
+
+
+    @Autowired
+    CFRcelebrityUtil cfRcelebrityUtil;
+
+    @Autowired
+    CFRfaceUtil cfRfaceUtil;
+
     @RequestMapping("/cfr1impl")
     public String cfr1impl(Model model, Ncp ncp) throws ParseException {
         // 1. 이미지를 서버에 저장
         FileUploadUtil.saveFile(ncp.getImg(),imgpath); // ncp의 이미지를 가져와서 imgpath에 저장해라
         // 2. 저장한 이미지를 ncp 에 물어본다
         String imgname = ncp.getImg().getOriginalFilename();
-        JSONObject result =(JSONObject) CFRcelebrityUtil.getResult(imgpath,imgname);
+        JSONObject result =(JSONObject) cfRcelebrityUtil.getResult(imgpath,imgname);
         JSONArray faces = (JSONArray) result.get("faces");
         JSONObject obj = (JSONObject) faces.get(0);
         JSONObject celebrity = (JSONObject) obj.get("celebrity");
@@ -51,7 +60,7 @@ public class NcpController {
         FileUploadUtil.saveFile(ncp.getImg(),imgpath); // ncp의 이미지를 가져와서 imgpath에 저장해라
         // 2. 저장한 이미지를 ncp 에 물어본다
         String imgname = ncp.getImg().getOriginalFilename();
-        JSONObject result =(JSONObject) CFRfaceUtil.getResult(imgpath,imgname);
+        JSONObject result =(JSONObject) cfRfaceUtil.getResult(imgpath,imgname);
         JSONArray faces = (JSONArray) result.get("faces");
         JSONObject obj = (JSONObject) faces.get(0);
 
@@ -87,7 +96,7 @@ public class NcpController {
     public String mycfr(Model model, String imgname ) throws ParseException {
 
         // 1. 저장한 이미지의 이름 넣기
-        JSONObject result =(JSONObject) CFRfaceUtil.getResult(imgpath,imgname);
+        JSONObject result =(JSONObject) cfRfaceUtil.getResult(imgpath,imgname);
         JSONArray faces = (JSONArray) result.get("faces");
         JSONObject obj = (JSONObject) faces.get(0);
 
