@@ -10,10 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d04943b-5c08-416a-9952-22888a554262" name="Changes" comment="0524 파일변경">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/LoginCheckFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/VerifyRecaptcha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/ReCaptchaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kbstar/EncTests2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kbstar/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterDir="false" />
     </list>
@@ -56,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/hyosunpark/spring/web22/src/main/java/com/kbstar",
+    "last_opened_file_path": "/Users/hyosunpark/spring/web23",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,14 +91,14 @@
       <recent name="com.kbstar" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kbstar" />
       <recent name="com.kbstar.controller" />
       <recent name="com.kbstar.dto" />
       <recent name="com.kbstar.ncp" />
       <recent name="com.kbstar.weather" />
-      <recent name="com.kbstar" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Web22Application">
+  <component name="RunManager" selected="JUnit.EncTests2.contextLoads">
     <configuration name="CFRcelebrityTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web20" />
       <extension name="coverage">
@@ -128,6 +129,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EncTests2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kbstar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kbstar" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.EncTests2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EncTests2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web20" />
       <extension name="coverage">
@@ -143,32 +159,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web17" />
+    <configuration name="EncTests2.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web22" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kbstar.cust.*" />
+          <option name="PATTERN" value="com.kbstar.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kbstar.cust" />
-      <option name="MAIN_CLASS_NAME" value="com.kbstar.cust.InsertTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web17" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kbstar.cust.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kbstar.cust" />
-      <option name="MAIN_CLASS_NAME" value="com.kbstar.cust.SelectTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.kbstar" />
+      <option name="MAIN_CLASS_NAME" value="com.kbstar.EncTests2" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -335,11 +337,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EncTests2.contextLoads" />
+        <item itemvalue="JUnit.EncTests2 (1)" />
         <item itemvalue="JUnit.CFRfaceTests" />
         <item itemvalue="JUnit.CFRcelebrityTests" />
         <item itemvalue="JUnit.EncTests2" />
-        <item itemvalue="JUnit.SelectTest" />
-        <item itemvalue="JUnit.InsertTest" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +391,8 @@
       <workItem from="1684737975660" duration="321000" />
       <workItem from="1684809246191" duration="1801000" />
       <workItem from="1684822501073" duration="664000" />
-      <workItem from="1684887235733" duration="8865000" />
+      <workItem from="1684887235733" duration="13653000" />
+      <workItem from="1684976610620" duration="1025000" />
     </task>
     <task id="LOCAL-00001" summary="0426">
       <created>1682482426195</created>
@@ -629,7 +632,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684887405713</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="0524 파일변경">
+      <created>1684917825163</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1684917825163</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -702,7 +712,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/views/login.jsp</url>
-          <line>17</line>
+          <line>27</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
